@@ -1,0 +1,31 @@
+/* Установка отступов и полей для всех элементов на странице в 0 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Удаление отступов для абзацев и блоков */
+p, div {
+    margin: 0;
+}
+
+/* Удаление пробелов между inline-блоками */
+.container {
+    font-size: 0;
+}
+
+.block {
+    font-size: 16px; /* Восстановление размера шрифта для содержимого блоков */
+}
+.my-block {
+    background-color: #f7a8b5; 
+}
+.my-blocc{
+	background-color:#fc748b;
+} 
+.my-blockc {
+    background-color: #fce1e5; 
+}
+.my-blockcK {
+    background-color: #f5ecd5; 
+}
